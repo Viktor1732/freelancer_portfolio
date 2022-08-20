@@ -9,3 +9,9 @@ navBtn.onclick = () => {
         navBtnImg.src = './images/icons/nav-open.png';
     }
 }
+
+
+AOS.init({
+    once: true, // the animation is shown only once
+    disable: 'mobile' // animation is disabled on mobile devices
+});

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" 
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -37,13 +39,13 @@
             </div> 
             
             <!-- Header content -->
-            <div class="header-row">
+            <div class="header-row" data-aos="fade-up">
                 <div class="header-content">
                     <h1 class="header-heading">Kelvin Kramer<br> <span>Designer & Developer</span></h1>
                     <p>I’m a portrait, fashion and lifestyle photographer living In New York City.<br> 
                         During my thirteen year tenure here.</p>
                 </div>
-                <div class="header-image">
+                <div class="header-image" data-aos="fade-left">
                     <picture>
                         <source media="(max-width: 700px)" srcset="./images/header/hero-mobile.png">
                         <img src="./images/header/hero.png" alt="">
@@ -55,21 +57,25 @@
         <section class="services">
             <div class="container">
                 <div class="services-row">
-                    <div class="service-card">
+                    
+                    <div class="service-card" data-aos="fade-down">
                         <img src="./images/services/service1.png" alt="UI/UX Design" class="service-img">
                         <h3 class="servece-card-title">UI/UX DESIGN</h3>
                         <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
                     </div>
-                    <div class="service-card">
+                    
+                    <div class="service-card" data-aos="fade-down">
                         <img src="./images/services/service2.png" alt="Development" class="service-img">
                         <h3 class="servece-card-title">DEVELOPMENT</h3>
                         <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
                     </div>
-                    <div class="service-card">
+                    
+                    <div class="service-card" data-aos="fade-down">
                         <img src="./images/services/service3.png" alt="Software testing" class="service-img">
                         <h3 class="servece-card-title">SOFTWARE TESTING</h3>
                         <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
                     </div>
+
                 </div>
             </div>        
         </section> 
@@ -80,17 +86,17 @@
             </div>
             <div class="portfolio-cards">
                 
-                <div class="portfolio-card">
+                <div class="portfolio-card" data-aos="flip-up">
                     <img class="portfolio-img" src="./images/portfolio/01.jpg">
                     <h3 class="portfolio-desc"><a href="#!">Online fashion store - Homepage</a></h3>
                 </div>
                 
-                <div class="portfolio-card">
+                <div class="portfolio-card" data-aos="flip-up">
                     <img class="portfolio-img" src="./images/portfolio/02.jpg">
                     <h3 class="portfolio-desc"><a href="#!">Reebok Store - Concept</a></h3>
                 </div>
                
-                <div class="portfolio-card">
+                <div class="portfolio-card" data-aos="flip-up">
                     <img class="portfolio-img" src="./images/portfolio/03.jpg">
                     <h3 class="portfolio-desc"><a href="#!">Braun Landing Page - Concept</a></h3>
                 </div>
@@ -98,11 +104,11 @@
         </section>
         
         <footer class="footer">
-            <div class="contacts-title">
+            <div class="contacts-title" data-aos="fade-down">
                 <h2>Contacts</h2>
             </div>
 
-            <div class="contacts-content">
+            <div class="contacts-content" data-aos="fade-down">
                 Want to know more or just chat?<br> You are welcome!
             </div>
 
@@ -110,14 +116,14 @@
                 <a href="#!">Send message</a>
             </div>
 
-            <div class="contacts-social">
+            <div class="contacts-social" data-aos="zoom-in">
                 <a href="#!"><img src="./images/socials/social1.png" alt=""></a>
                 <a href="#!"><img src="./images/socials/social2.png" alt=""></a>
                 <a href="#!"><img src="./images/socials/social3.png" alt=""></a>
                 <a href="#!"><img src="./images/socials/social4.png" alt=""></a>
             </div>
 
-            <div class="contacts-footer">Like me on<br> LinkedIn, Instagram, Behance, Dribble</div>
+            <div class="contacts-footer" data-aos="fade-up">Like me on<br> LinkedIn, Instagram, Behance, Dribble</div>
         </footer>
         
 
@@ -125,7 +131,8 @@
 
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
