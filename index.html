@@ -15,51 +15,63 @@
 <body>
     <div class="container">
         <header class="header">
+            
             <!-- Header nav -->
             <div class="header-nav">
                 <a href="#!" class="logo">Kelvin</a>
-                <nav class="nav">
+                
+                <nav class="nav" id="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#!" class="nav-link active">Home</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Services</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
-                    </ul>    
+                    </ul>
+                    
+                    <button class="nav-button" id="nav-btn">
+                        <img src="./images/icons/nav-open.png" alt="nav-button" id="nav-btn-img">
+                    </button>
+
                 </nav>
             </div> 
             
             <!-- Header content -->
             <div class="header-row">
                 <div class="header-content">
-                    <h1 class="header-heading">Kelvin Kramer<br> Designer & Developer</h1>
+                    <h1 class="header-heading">Kelvin Kramer<br> <span>Designer & Developer</span></h1>
                     <p>I’m a portrait, fashion and lifestyle photographer living In New York City.<br> 
                         During my thirteen year tenure here.</p>
                 </div>
                 <div class="header-image">
-                    <img src="./images/header/hero.png" alt="" class="header-img">
+                    <picture>
+                        <source media="(max-width: 700px)" srcset="./images/header/hero-mobile.png">
+                        <img src="./images/header/hero.png" alt="">
+                    </picture>    
                 </div>
             </div>
         </header>
     
         <section class="services">
-            <div class="services-row">
-                <div class="service-card">
-                    <img src="./images/services/service1.png" alt="UI/UX Design" class="service-img">
-                    <h3 class="servece-card-title">UI/UX DESIGN</h3>
-                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-                 </div>
-                <div class="service-card">
-                     <img src="./images/services/service2.png" alt="Development" class="service-img">
-                     <h3 class="servece-card-title">DEVELOPMENT</h3>
-                     <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-                 </div>
-                <div class="service-card">
-                     <img src="./images/services/service3.png" alt="Software testing" class="service-img">
-                     <h3 class="servece-card-title">SOFTWARE TESTING</h3>
-                     <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-                 </div>
-            </div>    
+            <div class="container">
+                <div class="services-row">
+                    <div class="service-card">
+                        <img src="./images/services/service1.png" alt="UI/UX Design" class="service-img">
+                        <h3 class="servece-card-title">UI/UX DESIGN</h3>
+                        <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./images/services/service2.png" alt="Development" class="service-img">
+                        <h3 class="servece-card-title">DEVELOPMENT</h3>
+                        <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./images/services/service3.png" alt="Software testing" class="service-img">
+                        <h3 class="servece-card-title">SOFTWARE TESTING</h3>
+                        <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                </div>
+            </div>        
         </section> 
 
         <section class="portfolio">

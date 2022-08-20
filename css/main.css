@@ -58,6 +58,11 @@ body {
     font-size: 14px;
 }
 
+.nav-button {
+    display: none;
+    border-radius: 50%;    
+}
+
 .nav-link {
     color: #000000;
 }
@@ -99,10 +104,16 @@ body {
 .services-row {
     display: flex;
     padding: 90px 30px;
+    column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
 }
 
 .service-card {
-    column-gap: 30px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 300px;
 }
 
 .servece-card-title {
